@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/*.csv
+data/processed/*.csv
+data/models/*
+!data/models/fault_classifier.joblib
+!data/models/feature_columns.json
